@@ -1,0 +1,99 @@
+/*Shared Style Guides*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  background: #fff8f3;
+  margin-bottom: 130px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+.links,
+.links ul {
+  display: flex;
+  align-items: center;
+}
+.right-side {
+  width: 584px;
+  height: 676px;
+  flex-shrink: 0;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background: url(../images/header_bg.png) no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  padding-left: 19%;
+  padding-right: 8%;
+}
+.Download-button {
+  display: flex;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+header > img {
+  position: absolute;
+  height: 80%;
+  top: 50px;
+  left: 5%;
+}
+button {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+}
+.banner button i {
+  padding: 8px;
+}
+.banner button {
+  padding: 8px 30px;
+}
+h1 {
+  font-size: 3.5rem;
+  padding: 5px 0;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 0;
+}
+.left-side {
+  padding-bottom: 80px;
+}
+.left-side p {
+  padding-top: 10px;
+}
+.about {
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  background: #fff8f3;
+  inset: 0;
+  margin: auto;
+  text-align: center;
+}
