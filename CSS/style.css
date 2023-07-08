@@ -71,7 +71,7 @@ header > img {
   background: url(../images/header_bg.png) no-repeat;
   background-position: bottom right;
   background-size: contain;
-  padding-left: 20.5%;
+  padding-left: 19.5%;
   padding-right: 8%;
   overflow: hidden;
 }
@@ -145,7 +145,7 @@ header > img {
   padding-top: 80px;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 .details h3 {
   font-size: 1rem;
@@ -153,7 +153,7 @@ header > img {
   font-weight: 400;
 }
 .details h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(26, 25, 25);
   font-weight: 700;
 }
@@ -223,9 +223,18 @@ header > img {
 }
 .summary-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 8rem;
+  align-items: center;
+  gap: 2rem;
   padding-bottom: 50px;
+}
+.qualifications {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 8rem;
 }
 hr {
   width: 500px;
@@ -235,12 +244,9 @@ hr {
   width: 500px;
 }
 
-.Educational-Qualification h1 {
-  font-size: 2rem;
-  padding-bottom: 30px;
-}
+.Educational-Qualification h1,
 .Experiential-Qualification h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 30px;
 }
 .summary-section h2 {
@@ -256,4 +262,64 @@ hr {
 .summary-section p {
   font-size: 1rem;
   padding-bottom: 20px;
+}
+
+/*footer*/
+footer {
+  background: #fff8f3;
+  padding-top: 100px;
+  height: 700px;
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.connect,
+.form {
+  width: 500px;
+}
+.connect h2 {
+  padding-bottom: 30px;
+}
+.form-area h2 {
+  padding-bottom: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.name {
+  height: 50px;
+
+  padding-right: 20px;
+}
+.email {
+  height: 50px;
+  padding-right: 20px;
+}
+.message {
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.social-icons {
+  scale: 1.2;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  gap: 1.5rem;
+  color: #fd6e0a;
+}
+
+h6 {
+  background-color: #f8e2d3;
+  padding: 10px 0;
+  inset: 0;
+  margin: auto;
+  text-align: center;
 }
