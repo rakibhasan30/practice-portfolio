@@ -173,7 +173,7 @@ header > img {
 
 /* Skills Section*/
 .skills {
-  padding: 0 230px 130px 230px;
+  padding: 0 230px 30px 230px;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
@@ -211,4 +211,49 @@ header > img {
   height: 44px;
   width: 44px;
   padding-bottom: 30px;
+}
+
+/*Summary Page*/
+
+.summary {
+  border-radius: 20px;
+  inset: 0;
+  margin: 100px auto 50px;
+  text-align: center;
+}
+.summary-section {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  padding-bottom: 50px;
+}
+hr {
+  width: 500px;
+}
+.Educational-Qualification,
+.Experiential-Qualification {
+  width: 500px;
+}
+
+.Educational-Qualification h1 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.Experiential-Qualification h1 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.summary-section h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.summary-section h3 {
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+.summary-section p {
+  font-size: 1rem;
+  padding-bottom: 20px;
 }
